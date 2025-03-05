@@ -1,0 +1,13 @@
+header {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5vw;
+  top: 0;
+  height: 8vh;
+  background-image: linear-gradient(45deg, #e3fdfd 8.33%, #cbf1f5 8.33%, #cbf1f5 16.67%, #a6e3e9 16.67%, #a6e3e9 25%, #71c9ce 25%, #71c9ce 33.33%, #a6e3e9 33.33%, #a6e3e9 41.67%, #cbf1f5 41.67%, #cbf1f5 50%, #e3fdfd 50%, #e3fdfd 58.33%, #cbf1f5 58.33%, #cbf1f5 66.67%, #a6e3e9 66.67%, #a6e3e9 75%, #71c9ce 75%, #71c9ce 83.33%, #a6e3e9 83.33%, #a6e3e9 91.67%, #cbf1f5 91.67%, #cbf1f5 100%);
+  background-size: 169.71px 169.71px;
+  box-shadow: 0 1vh 1vh #71c9ce;
+  background-position-x: 0px;
+}
