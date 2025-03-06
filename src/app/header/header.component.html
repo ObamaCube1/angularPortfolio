@@ -1,5 +1,5 @@
 <header>
   <div id="logo"></div>
-  <div id="buttonGroup"><app-header-button *ngFor="let button of buttons" [imageUrl]="button.imageUrl" [imageDescription]="button.imageDescription" [label]="button.label">
+  <div id="buttonGroup"><app-header-button *ngFor="let button of buttons" [imageUrl]="button.imageUrl" [imageDescription]="button.imageDescription" [label]="button.label" [routerLink]="button.routerLink">
   </app-header-button></div>
 </header>

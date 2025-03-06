@@ -10,6 +10,7 @@ export class HeaderButtonComponent implements OnInit { // Théoriquement des bou
   @Input() imageUrl!: string;
   @Input() imageDescription!: string;
   @Input() label!: string;
+  @Input() routerLink!: string;
   displayLabel: string = "";
 
   ngOnInit() {
