@@ -1,0 +1,13 @@
+#projectCard {
+  display: flex;
+  border: 2px solid #71C9CE;
+}
+
+img {
+  width: min(30vw,30vh);
+}
+
+#projectDescription {
+  display: flex;
+  flex-direction: column;
+}
