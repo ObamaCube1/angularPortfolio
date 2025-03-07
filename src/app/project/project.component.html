@@ -1,1 +1,8 @@
-<p>project works!</p>
+<div id="projectCard">
+  <img src="{{project.thumbnailUrl}}" alt="thumbnail">
+  <div id="projectDescription">
+    <h3>{{project.title}}</h3>
+    <h4>{{project.subtitle}}</h4>
+    <button (click)="onButtonClick()">🔎</button>
+  </div>
+</div>

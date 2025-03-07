@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import {Component, Input} from '@angular/core';
+import {ProjectModel} from '../Models/project.model';
+import {Router} from '@angular/router';
+import {ProjectsService} from '../Services/projects.service';
 
 @Component({
   selector: 'app-project',
@@ -7,5 +10,12 @@ import { Component } from '@angular/core';
   styleUrl: './project.component.scss'
 })
 export class ProjectComponent {
+  @Input() project!: ProjectModel;
 
+  constructor(private projectsService: ProjectsService, private router: Router) {
+  }
+
+  onButtonClick() {
+    this.router.navigateByUrl('/home/'+this.project.id);
+  }
 }

@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { PrimeFactorsPipe } from './Pipes/prime-factors.pipe';
 import { PrimeFactorDecompositionComponent } from './prime-factor-decomposition/prime-factor-decomposition.component';
+import {NgOptimizedImage} from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { PrimeFactorDecompositionComponent } from './prime-factor-decomposition/
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    NgOptimizedImage
   ],
   providers: [],
   bootstrap: [AppComponent]
